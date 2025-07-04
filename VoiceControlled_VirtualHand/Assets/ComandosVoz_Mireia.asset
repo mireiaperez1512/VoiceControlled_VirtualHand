@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: ComandosVoz_Mireia
+  m_EditorClassIdentifier: 
+  _clientAccessToken: KLZQB3E6V3MZIZYA624XAPMC6DW4SLE5
+  editorVersionTag: 
+  buildVersionTag: 
+  _appInfo:
+    name: movimientos_manovirtual
+    id: 568630199614510
+    lang: es
+    isPrivate: 1
+    createdAt: 2025-05-25T02:14:24-0700
+    trainingStatus: 1
+    lastTrainDuration: 116
+    lastTrainedAt: 2025-06-28T08:45:28-0700
+    nextTrainAt: 2025-06-28T08:43:32-0700
+    intents:
+    - id: 3211857338963034
+      name: activar_ambas
+      entities: []
+    - id: 702143705902896
+      name: activar_derecha
+      entities: []
+    - id: 1063297245692264
+      name: activar_escucha
+      entities: []
+    - id: 657447190677076
+      name: activar_izquierda
+      entities: []
+    - id: 1213457790421379
+      name: coger_objeto
+      entities: []
+    - id: 1201238525079690
+      name: pulsar_bot_n
+      entities: []
+    - id: 1775567013022832
+      name: soltar_objeto
+      entities: []
+    entities: []
+    traits: []
+    versionTags: []
+    voices: []
+  _configData:
+  - {fileID: 3303618699857498459}
+  _configurationId: be084cf3-8f49-4114-ab7b-da44370f3993
+  _requestType: 0
+  _requestTimeoutMs: 10000
+  endpointConfiguration:
+    _uriScheme: 
+    _authority: 
+    _port: 0
+    _witApiVersion: 
+    _message: 
+    _speech: 
+    _dictation: 
+    _synthesize: 
+    _event: 
+    _converse: 
+  isDemoOnly: 0
+  useIntentAttributes: 1
+  useConduit: 0
+  _manifestLocalPath: ConduitManifest-f50e8005-a833-4587-98a0-da8292dd7aa4.json
+  excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  relaxedResolution: 0
+--- !u!114 &3303618699857498459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
+  m_Name: WitComposerData
+  m_EditorClassIdentifier: 
+  canvases: []
